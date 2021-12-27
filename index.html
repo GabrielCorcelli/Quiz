@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Quiz - Leonardo Oliveira</title>
+</head>
+<body>
+    <div class="container">
+            
+        <div class="content">
+
+            <div class="inicial">
+                <div class="inicialTitleDiv">
+                    <h1 id="inicialTitle">General knowledge quiz</h1>
+                </div>
+
+                <div class="questionbox hidden">
+                    <h1 class="hide" id="questionText">Question Title</h1>
+                </div>
+
+                <div class="questionNumberDiv hidden">
+                    <p class="hide" id="QuestionNumber">0/0</p>
+                </div>
+
+                <div id="startButtonDiv">
+                    <button id="startButton" onclick="showElementsOnScreen()">Start quiz</button>
+                </div>
+            </div>
+
+            <div id="alternatives">
+                <!-- First question -->
+                <button class="hide" id="alternative1" onclick="CheckQuestion_Button1()"> Alternative 1</button>
+                <button class="hide" id="alternative2" onclick="CheckQuestion_Button2()"> Alternative 2</button>
+                <button class="hide" id="alternative3" onclick="CheckQuestion_Button3()"> Alternative 3</button>
+
+                <!-- Second question -->
+                <button class="hide" id="alternative4" onclick="CheckQuestion_Button4()"> Alternative 4</button>
+                <button class="hide" id="alternative5" onclick="CheckQuestion_Button5()"> Alternative 5</button>
+                <button class="hide" id="alternative6" onclick="CheckQuestion_Button6()"> Alternative 6</button>
+
+                <!-- Third question -->
+                <button class="hide" id="alternative7" onclick="CheckQuestion_Button7()"> Alternative 7</button>
+                <button class="hide" id="alternative8" onclick="CheckQuestion_Button8()"> Alternative 8</button>
+                <button class="hide" id="alternative9" onclick="CheckQuestion_Button9()"> Alternative 9</button>
+
+                <!-- Fourth question -->
+                <button class="hide" id="alternative10" onclick="CheckQuestion_Button10()"> Alternative 10</button>
+                <button class="hide" id="alternative11" onclick="CheckQuestion_Button11()"> Alternative 11</button>
+                <button class="hide" id="alternative12" onclick="CheckQuestion_Button12()"> Alternative 12</button>
+
+                <!-- Fifth question -->
+                <button class="hide" id="alternative13" onclick="CheckQuestion_Button13()"> Alternative 13</button>
+                <button class="hide" id="alternative14" onclick="CheckQuestion_Button14()"> Alternative 14</button>
+                <button class="hide" id="alternative15" onclick="CheckQuestion_Button15()"> Alternative 15</button>
+            </div>
+
+            <div id="FinalScreen">
+                <h1 class="hide" id="ResultText">You got X of X questions right</h1>
+
+                <div class="NominalTextDiv">
+                    <h2 class="hide" id="NominalText">Wow!</h2>
+                </div>    
+
+                <div class="MotivacionalTextDiv">
+                    <h2 class="hide" id="MotivacionalText">Motivacional Text</h2>
+                </div>
+                
+                <div class="github">
+                    <img src="CSS/IMG/github.png" alt="">
+                    <a href="https://github.com/leonardo7k">leonardo7k</a>
+                </div>
+
+                <div class="CallToActionDiv">
+                    <h2 class="hide" id="CallToAction">Retry</h2>
+                </div>
+
+                <button class="hide" id="retryButton" onclick="retry()" >Try Again</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="JS/app.js"></script>
+</body>
+</html>
