@@ -1,0 +1,56 @@
+div.content.Start{
+    width: 313px;
+    height: 285px;
+
+    background-color: #484848;
+    border-radius: 4px;
+}
+
+.questionNumberDiv{
+    @extend .flex;
+
+    width: 61px;
+    height: 51px;
+    
+    margin-top: -125px;
+    margin-left: 126px;
+    
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+#alternative1, #alternative4, #alternative7, #alternative10, #alternative13{
+    margin-top: 83px;
+    margin-left: 22px;
+}
+
+#alternative2, #alternative5, #alternative8, #alternative11, #alternative14{
+    margin-top: 151px;
+    margin-left: 22px;
+}
+
+#alternative3, #alternative6, #alternative9, #alternative12, #alternative15{
+    margin-top: 219px;
+    margin-left: 22px;
+}
+
+.questionbox{    
+    width: 100%;
+    height: 60px;
+    
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    font-size: .9rem;
+    
+    h1{
+    padding-left: 12px;
+    padding-top: 8px;
+    
+    width: 295px;
+    
+    font-size: 1.7rem;
+    word-break: break-word;
+    }
+}

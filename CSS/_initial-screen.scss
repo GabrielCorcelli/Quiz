@@ -1,0 +1,42 @@
+.container{
+    @extend .flex;
+    flex-direction: row;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    background: $bg-color;
+}
+
+.content{
+    width: 313px;
+    height: 180px;
+
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.inicialTitleDiv{
+    @extend .flex;
+    position: relative;
+
+    width: 100%;
+    height: 23px;
+
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+div.inicialTitleDiv.hidden{
+    position: absolute;
+}
+
+#startButton{
+    margin-top: 50px;
+    margin-left: 22px;
+}
+
+div.questionbox.hidden, div.questionNumberDiv.hidden{
+    visibility: hidden;
+}
