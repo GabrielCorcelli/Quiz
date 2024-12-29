@@ -1,7 +1,7 @@
 const Questions = {
     question1: `Qual foi o primeiro presidente dos Estados Unidos da América`,
     answers: {
-        a: `Bolsonaro`,
+        a: `John Kennedy`,
         b: `George Washington`,
         c: `Trump`
     },
