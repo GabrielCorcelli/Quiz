@@ -1,11 +1,11 @@
 const Questions = {
-    question1: `Which is the smallest and largest country in the world?`,
+    question1: `Qual foi o primeiro presidente dos Estados Unidos da América`,
     answers: {
-        a: `San Marino and China`,
-        b: `Vatican and Russia`,
-        c: `Monaco and Russia`
+        a: `Bolsonaro`,
+        b: `George Washington`,
+        c: `Trump`
     },
-    correctAnswer: `Vatican and Russia`,
+    correctAnswer: `George Washington`,
 
     question2: `Where in Asia is Portuguese an official language?`,
     answers2: {
